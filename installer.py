@@ -7,11 +7,11 @@ import tkinter as tk
 
 os.system("pip install winshell")
 
-#creates directory in c:\Program Files (x86)\ReturnOof
+#creates directory in C:\Users\%username%\Documents\ReturnOof
 
-os.mkdir(r"C:\Users\%username%\Documents\ReturnOof")
+os.makedirs(r"C:\Users\%username%\Documents\ReturnOof")
 
-#downloads main.py to c:\Program Files (x86)\ReturnOof from github
+#downloads main.py to C:\Users\%username%\Documents\ReturnOof from github
 
 urllib2.urlretrieve("https://raw.githubusercontent.com/OctaNebula/return-oof-sound/main/main.pyw", r"C:\Users\%username%\Documents\ReturnOof\main.pyw")
 
