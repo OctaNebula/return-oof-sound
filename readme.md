@@ -21,3 +21,7 @@ I yet have to figure out how GitHub works (no pull request mumbo jumbo for now ð
 > bruh how do i get rid of this thing
 
 To uninstall the program just delete the program directory (C:\Program Files (x86)\ReturnOof\).
+
+> why is it not working???!?!?!?
+
+run the program as administrator, i even said it in the readme smh
