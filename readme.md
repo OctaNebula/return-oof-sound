@@ -20,4 +20,4 @@ I yet have to figure out how GitHub works (no pull request mumbo jumbo for now ð
 
 > bruh how do i get rid of this thing
 
-To uninstall the program just delete the program directory (c:\Program Files (x86)\ReturnOof).
+To uninstall the program just delete the program directory (C:\Users\%username%\Documents\ReturnOof).
