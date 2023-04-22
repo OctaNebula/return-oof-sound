@@ -13,7 +13,9 @@ Head over to the [releases page](https://github.com/OctaNebula/return-oof-sound/
 no you can literally check the source code
 > program does not work!!11!11!1
 
-this was a random project I made out of pure boredom to learn how git works so don't really expect me  to fix it lol
+run the program as administrator, i even said it in the readme smh
+
+other than that it might be a bug, and this was a random project I made out of pure boredom to learn how git works so don't really expect me  to fix it lol
 > I want to contribute to the project and improve your shitty code
 
 I yet have to figure out how GitHub works (no pull request mumbo jumbo for now 😭😭) so for now just send me the modified code on discord (OctaNebula#7531)
@@ -21,7 +23,3 @@ I yet have to figure out how GitHub works (no pull request mumbo jumbo for now �
 > bruh how do i get rid of this thing
 
 To uninstall the program just delete the program directory (C:\Program Files (x86)\ReturnOof\).
-
-> why is it not working???!?!?!?
-
-run the program as administrator, i even said it in the readme smh
