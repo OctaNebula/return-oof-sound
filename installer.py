@@ -10,7 +10,7 @@ os.mkdir(path)
 
 #downloads main.py to c:\Program Files (x86)\ReturnOof from github
 
-urllib2.urlretrieve("https://raw.githubusercontent.com/OctaNebula/return-oof-sound/main/main.py", "C:\Program Files (x86)\ReturnOof\main.py")
+urllib2.urlretrieve("https://raw.githubusercontent.com/OctaNebula/return-oof-sound/main/main.pyw", "C:\Program Files (x86)\ReturnOof\main.pyw")
 
 #literally the same but for the sound file
 
@@ -18,7 +18,7 @@ urllib2.urlretrieve("https://github.com/OctaNebula/return-oof-sound/raw/main/ouc
 
 #creates a shortcut to the main.py file in the startup folder
 
-ws.CreateShortcut(Path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\ReturnOof.lnk", Target="C:\Program Files (x86)\ReturnOof\main.py", Icon="C:\Program Files (x86)\ReturnOof\ouch.ogg", Description="Return Oof Sound")
+ws.CreateShortcut(Path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\ReturnOof.lnk", Target="C:\Program Files (x86)\ReturnOof\main.pyw", Icon="C:\Program Files (x86)\ReturnOof\ouch.ogg", Description="Return Oof Sound")
 
 #creates a popup window to tell the user that the program has been installed
 
