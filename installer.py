@@ -3,6 +3,10 @@ import urllib.request as urllib2
 import winshell
 import tkinter as tk
 
+#installs winshell
+
+os.system("pip install winshell")
+
 #creates directory in c:\Program Files (x86)\ReturnOof
 
 os.mkdir("C:\Program Files (x86)\ReturnOof")
