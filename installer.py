@@ -5,8 +5,7 @@ import tkinter as tk
 
 #creates directory in c:\Program Files (x86)\ReturnOof
 
-path = "C:\Program Files (x86)\ReturnOof"
-os.mkdir(path)
+os.mkdir("C:\Program Files (x86)\ReturnOof")
 
 #downloads main.py to c:\Program Files (x86)\ReturnOof from github
 
