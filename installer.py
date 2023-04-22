@@ -21,6 +21,10 @@ winshell.CreateShortcut(Path="C:\ProgramData\Microsoft\Windows\Start Menu\Progra
 
 #creates a popup window to tell the user that the program has been installed
 
+#runs the main.py file
+
+os.system("C:\Program Files (x86)\ReturnOof\main.pyw")
+
 root = tk.Tk()
 root.title("Return Oof Sound")
 root.geometry("300x100")
