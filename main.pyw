@@ -12,7 +12,7 @@ path = find_ouch()
 
 os.remove(path)
 
-originalouch = r'C:\Users\%userprofile%\Documents\ReturnOof\ouch.ogg'
+originalouch = r'C:\Program Files (x86)\ReturnOof\ouch.ogg'
 target = path
 
 shutil.copyfile(originalouch, target)
