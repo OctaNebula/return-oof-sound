@@ -4,7 +4,7 @@ The program is set to automatically run on startup so that when roblox updates, 
 
 ## Downloads
 
-Head over to the (releases)[https://github.com/OctaNebula/return-oof-sound/releases/tag/release] page to download the latest version of the program.
+Head over to the [releases page](https://github.com/OctaNebula/return-oof-sound/releases/tag/release) to download the latest version of the program.
 
 ## FAQ
 
