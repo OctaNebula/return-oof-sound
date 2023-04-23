@@ -17,7 +17,7 @@ os.mkdir("C:\Program Files (x86)\ReturnOof")
 
 #downloads main.py to c:\Program Files (x86)\ReturnOof from github
 
-urllib2.urlretrieve("https://github.com/OctaNebula/return-oof-sound/raw/main/Resources/ReturnOof.exe", "C:\Program Files (x86)\ReturnOof\main.pyw")
+urllib2.urlretrieve("https://github.com/OctaNebula/return-oof-sound/raw/main/Resources/ReturnOof.exe", "C:\Program Files (x86)\ReturnOof\ReturnOof.exe")
 
 #literally the same but for the sound file
 
