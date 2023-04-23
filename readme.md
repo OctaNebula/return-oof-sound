@@ -11,6 +11,7 @@ Head over to the [releases page](https://github.com/OctaNebula/return-oof-sound/
 > bro what is this a virus 💀💀💀
 
 no you can literally check the source code
+for some reason it (sometimes) gets flagged by windows defender but its a false positive dont worry
 > program does not work!!11!11!1
 
 run the program as administrator, i even said it in the readme smh
