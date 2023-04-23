@@ -7,6 +7,10 @@ import tkinter as tk
 
 os.system("pip install winshell")
 
+#asks for admin privileges
+
+os.system("powershell -Command \"Start-Process 'python' -ArgumentList 'installer.py' -Verb RunAs\"")
+
 #creates directory in c:\Program Files (x86)\ReturnOof
 
 os.mkdir("C:\Program Files (x86)\ReturnOof")
