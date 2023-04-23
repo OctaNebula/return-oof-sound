@@ -12,13 +12,16 @@ The program also requires python to be installed on your system, you can downloa
 
 I personally wouldn't bother self building it because i don't think it's worth the effort, but if you really want to, here's how you can do it:
 
-As with any other python program, you can build the `installer-noexe.py` (you can also use `installer.py` but that makes the program use the exe file, which kinda ruins the whole point) file into an executable using [pyinstaller](https://www.pyinstaller.org/).
-You can also run it through VSCode with administrator privileges (otherwise it won't work).
+As with any other python program, you can build the `installer-noexe.py` *(you can also use `installer.py` but that makes the program use the exe file, which kinda ruins the whole point of self-building it in the first place)* file into an executable using [pyinstaller](https://www.pyinstaller.org/).
 
 ````bash
 pyinstaller --onefile --noconsole installer.py
 ````
+
 The executable will be located in the `dist` folder.
+
+
+You can also run it through VSCode with administrator privileges (otherwise it won't work).
 
 Alternatively, you can manually install the program by shoving the `main.py` file into the `C:\Program Files (x86)\ReturnOof\` directory and creating a shortcut to it in the startup folder (`C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\`). Don't forget to also put the `ouch.ogg` file in the `C:\Program Files (x86)\ReturnOof\` directory.
 
