@@ -12,7 +12,7 @@ The program also requires python to be installed on your system, you can downloa
 
 I personally wouldn't bother self building it because i don't think it's worth the effort, but if you really want to, here's how you can do it:
 
-As with any other python program, you can build the `installer.py` file into an executable using [pyinstaller](https://www.pyinstaller.org/).
+As with any other python program, you can build the `installer-noexe.py` (you can also use `installer.py` but that makes the program use the exe file, which kinda ruins the whole point) file into an executable using [pyinstaller](https://www.pyinstaller.org/).
 You can also run it through VSCode with administrator privileges (otherwise it won't work).
 
 ````bash
@@ -33,9 +33,7 @@ If you are THAT scared i'd slip a malicious piece of code in the executable, you
 
 > program does not work!!11!11!1
 
-run the program as administrator, i even said it in the readme smh
-
-other than that it might be a bug, and this was a random project I made out of pure boredom to learn how git works so don't really expect me to fix it lol
+it might be a bug, and this was a random project I made out of pure boredom to learn how git works so don't really expect me to fix it lol
 > I want to contribute to the project and improve your shitty code
 
 I yet have to figure out how GitHub works (no pull request mumbo jumbo for now 😭😭) so for now just send me the modified code on discord (OctaNebula#7531)
