@@ -2,6 +2,7 @@
 This program returns the old & iconic "oof" sound effect to your roblox installation.
 The program is set to automatically run on startup so that when roblox updates, the program (eventually) takes care of replacing the new `ouch.ogg` sound with the old one *(again)*.
 
+I mostly made this program to learn how git works, but the trigger point was that when you get damaged in Critical Strike, you hear the new sound effect and i cant stand hearing sneeze noises when i take get damaged lol.
 ## Downloads
 
 Head over to the [releases page](https://github.com/OctaNebula/return-oof-sound/releases/tag/release) to download the latest version of the program.
