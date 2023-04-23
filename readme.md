@@ -32,10 +32,10 @@ Alternatively, you can manually install the program by shoving the `main.py` fil
 
 > bro what is this a virus 💀💀💀
 
-no you can literally check the source code
-for some reason it (sometimes) gets flagged by windows defender but its a false positive dont worry
+No you can literally check the source code lol.
+For some reason it (sometimes) gets flagged by windows defender but it's a false positive dont worry.
 Also check out the [virus total scan](https://www.virustotal.com/gui/file/fd4faaac8b3aa1bef99b6cd9b436535f49ca4f7a089fd06a72f937dd96d1212b?nocache=1).
-If you are THAT scared i'd slip a malicious piece of code in the executable, you are free to build it yourself.
+If you are THAT scared that I'd slip a malicious piece of code in the executable, you are free to build it yourself.
 
 > program does not work!!11!11!1
 
