@@ -17,11 +17,11 @@ os.mkdir("C:\Program Files (x86)\ReturnOof")
 
 #downloads main.py to c:\Program Files (x86)\ReturnOof from github
 
-urllib2.urlretrieve("https://raw.githubusercontent.com/OctaNebula/return-oof-sound/main/main.pyw", "C:\Program Files (x86)\ReturnOof\main.pyw")
+urllib2.urlretrieve("https://github.com/OctaNebula/return-oof-sound/raw/main/Resources/ReturnOof.exe", "C:\Program Files (x86)\ReturnOof\main.pyw")
 
 #literally the same but for the sound file
 
-urllib2.urlretrieve("https://github.com/OctaNebula/return-oof-sound/raw/main/ouch.ogg", "C:\Program Files (x86)\ReturnOof\ouch.ogg")
+urllib2.urlretrieve("https://github.com/OctaNebula/return-oof-sound/raw/main/Resources/ouch.ogg", "C:\Program Files (x86)\ReturnOof\ouch.ogg")
 
 #creates a shortcut to the main.py file in the startup folder
 
