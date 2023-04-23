@@ -20,7 +20,7 @@ pyinstaller --onefile --noconsole installer.py
 ````
 The executable will be located in the `dist` folder.
 
-Alternatively, you can manually install the program by shoving the `main.py` file into the `C:\Program Files (x86)\ReturnOof\` directory and creating a shortcut to it in the startup folder (`C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`). Don't forget to also put the `ouch.ogg` file in the `C:\Program Files (x86)\ReturnOof\` directory.
+Alternatively, you can manually install the program by shoving the `main.py` file into the `C:\Program Files (x86)\ReturnOof\` directory and creating a shortcut to it in the startup folder (`C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\`). Don't forget to also put the `ouch.ogg` file in the `C:\Program Files (x86)\ReturnOof\` directory.
 
 ## FAQ
 
