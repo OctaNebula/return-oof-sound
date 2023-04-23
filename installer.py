@@ -25,7 +25,7 @@ urllib2.urlretrieve("https://github.com/OctaNebula/return-oof-sound/raw/main/Res
 
 #creates a shortcut to the main.py file in the startup folder
 
-winshell.CreateShortcut(Path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\ReturnOof.lnk", Target="C:\Program Files (x86)\ReturnOof\main.pyw")
+winshell.CreateShortcut(Path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\ReturnOof.lnk", Target="C:\Program Files (x86)\ReturnOof\ReturnOof.exe")
 
 #creates a popup window to tell the user that the program has been installed
 
