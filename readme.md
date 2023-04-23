@@ -6,6 +6,8 @@ The program is set to automatically run on startup so that when roblox updates, 
 
 Head over to the [releases page](https://github.com/OctaNebula/return-oof-sound/releases/tag/release) to download the latest version of the program.
 
+The program also requires python to be installed on your system, you can download it [here](https://www.python.org/downloads/).
+
 ## FAQ
 
 > bro what is this a virus 💀💀💀
