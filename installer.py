@@ -1,11 +1,11 @@
+#installs winshell
+
+os.system("pip install winshell")
+
 import os
 import urllib.request as urllib2
 import winshell
 import tkinter as tk
-
-#installs winshell
-
-os.system("pip install winshell")
 
 #asks for admin privileges
 
