@@ -1,18 +1,28 @@
+originalouch = r'C:\Program Files (x86)\ReturnOof\ouch.ogg'
+
 import os
 import shutil
 
-#searches for the ouch.ogg file in the directory in C:\Users\%username%\AppData\Local\Roblox\Versions and returns its path
-def find_ouch():
+#finds both ouch.ogg files
+def find_ouch_1():
     for root, dirs, files in os.walk(os.path.expandvars("%localappdata%\Roblox\Versions")):
         for file in files:
+            if len(dirs) == 2:
+                del dirs[0]
+            if file == "ouch.ogg":
+                return os.path.join(root, file)
+def find_ouch_2():
+    for root, dirs, files in os.walk(os.path.expandvars("%localappdata%\Roblox\Versions")):
+        for file in files:
+            if len(dirs) == 2:
+                del dirs[1]
             if file == "ouch.ogg":
                 return os.path.join(root, file)
 
-path = find_ouch()
+#replaces both ouch.ogg files
+def replace(path):
+    os.remove(path)
+    shutil.copyfile(originalouch, path)
 
-os.remove(path)
-
-originalouch = r'C:\Program Files (x86)\ReturnOof\ouch.ogg'
-target = path
-
-shutil.copyfile(originalouch, target)
+replace(find_ouch_1())
+replace(find_ouch_2())
